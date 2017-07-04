@@ -7,7 +7,7 @@ using this command will allows git to continuously monitor & track our local rep
 4> git add filename <- this command can be used to stage specefied untracked file.
 
 Use following command to sync with your remote repository
-5> git config --global user.name "aniruddha mandan"
+5> git config --global user.name "AniruddhaMandan"
 6> git config --global user.email aniruddhamandan@gmail.com
 
 7> git commit -m "commit message" <- this command can be used to commit all staged file
@@ -22,8 +22,12 @@ Use following command to sync with your remote repository
 
 -----------create a new repository on the command line-------------------------
 git remote add origin https://github.com/AniruddhaMandan/RepoName.git
-git push -u origin master <- push all commited files onto your remote repository
+git push origin master <- push all commited files onto your remote repository
 
 -----------push an existing repository from the command line-------------------
 git remote add origin https://github.com/AniruddhaMandan/RepoName.git
-git push -u origin master
+git push origin master
+
+when we FORK a repo it will added into the repos associated with our github account
+
+git clone https://github.com/AniruddhaMandan/favorite-quotes.git <- this command will create a local copy of remote repository whose URL is Mentioned
