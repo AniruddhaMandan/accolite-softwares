@@ -15,3 +15,15 @@ Use following command to sync with your remote repository
 8> git log <- this command can be used to get the information about all previous commit operation
 
 9> git log --oneline <- this command can be used to get the revision-number for all previous commit operation
+
+10> git checkout -- Filename <- this command can be used to revert the changes back to previous commit poit iff the has not been staged.
+
+11> git revert <revision number> <- this command can be used to revert the changes made on commited file whose revision number is specified.
+
+-----------create a new repository on the command line-------------------------
+git remote add origin https://github.com/AniruddhaMandan/RepoName.git
+git push -u origin master <- push all commited files onto your remote repository
+
+-----------push an existing repository from the command line-------------------
+git remote add origin https://github.com/AniruddhaMandan/RepoName.git
+git push -u origin master
