@@ -1,0 +1,7 @@
+1>git init <- this command will create a local repository
+using this command will allows git to continuously monitor & track our local repository.
+
+2> git status <- this command will let you know about youe current branch bydefault you are in master branch.
+
+3> git add . <- this command can be used to stage all untracked file
+4> git add filename <- this command can be used to stage specfied untracked file
