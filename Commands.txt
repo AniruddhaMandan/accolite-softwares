@@ -13,3 +13,5 @@ Use following command to sync with your remote repository
 7> git commit -m "commit message" <- this command can be used to commit all staged file
 
 8> git log <- this command can be used to get the information about all previous commit operation
+
+9> git log --oneline <- this command can be used to get the revision-number for all previous commit operation
